@@ -1,0 +1,20 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2636
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 This bot is meant to predict if the following 1h candlestick will either increase or decrease in a determined percentage that justifies buying and selling in the following hour.\
+\
+Prediction if done with ML algorithm of Random Forest.\
+\
+The dataset are the previous 500 1h duration candlesticks.\
+\
+With that, I get the training and test set.\
+\
+After that I tune the threshold of probability to either determine TRUE or FALSE predictions. \
+\
+I\'92ve run this algorithm in production for about 15 days but didn\'92t generate earnings. It seems that there\'92s some uncertainty related to the market that makes that even having a F1-SCORE and ACCURACY of 1 in the training and test set, it fails to predict the next move.\
+\
+All further recommendations are welcome.}
